@@ -30,7 +30,7 @@ namespace TestingPlatform1.Controllers
         public IActionResult UpdateAnswer(int id) => NoContent();
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteAnswer(int id) => NoContent();
+        public IActionResult DeleteAnswers(int id) => NoContent();
     }
 
 }
