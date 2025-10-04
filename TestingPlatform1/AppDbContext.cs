@@ -21,7 +21,7 @@ namespace TestingPlatform1
                     MiddleName = "grat",
                     LastName = "resh", 
                     Phone = "79352235412",
-                    VkProfileLink = 'http://vk.com/petr11221', 
+                    VkProfileLink = "http://vk.com/petfdgr11221", 
                     CreatedAt = DateTimeOffset.Now },
                 new Student
                 {
@@ -32,7 +32,7 @@ namespace TestingPlatform1
                     MiddleName = "grherat",
                     LastName = "reslolh",
                     Phone = "79357775612",
-                    VkProfileLink = 'http://vk.com/katya2134',
+                    VkProfileLink = "http://vk.com/kathsdha2134",
                     CreatedAt = DateTimeOffset.Now
                 }
                  );
