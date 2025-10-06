@@ -22,7 +22,7 @@ namespace TestingPlatform1
                     LastName = "resh", 
                     Phone = "79352235412",
                     VkProfileLink = "http://vk.com/petfdgr11221", 
-                    CreatedAt = DateTimeOffset.Now },
+                    CreatedAt = new DateTimeOffset(2025, 10, 6, 3, 51, 51, offset: TimeSpan.FromHours(3))},
                 new Student
                 {
                     Id = 2,
@@ -33,7 +33,7 @@ namespace TestingPlatform1
                     LastName = "reslolh",
                     Phone = "79357775612",
                     VkProfileLink = "http://vk.com/kathsdha2134",
-                    CreatedAt = DateTimeOffset.Now
+                    CreatedAt = new DateTimeOffset(2025, 10, 6, 5, 34, 21, offset: TimeSpan.FromHours(3))
                 }
                  );
         }
