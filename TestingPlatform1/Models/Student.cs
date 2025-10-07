@@ -17,5 +17,8 @@
         public string VkProfileLink { get; set; }
 
         public DateTimeOffset CreatedAt { get; set; }
+
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }
