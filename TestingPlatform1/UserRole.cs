@@ -1,8 +1,8 @@
 ﻿namespace TestingPlatform1
 {
-    public class UserRole
+    public enum UserRole
     {
-        Manager = 1,
-        Student = 2,
+        Manager =1,
+        Student =2,
     }
 }

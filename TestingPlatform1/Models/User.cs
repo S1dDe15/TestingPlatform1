@@ -1,4 +1,6 @@
-﻿namespace TestingPlatform1.Models
+﻿using System.Text.Json.Serialization;
+
+namespace TestingPlatform1.Models
 {
     public class User
     {
@@ -23,6 +25,7 @@
 
         public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
 
+        [JsonIgnore]
         public Student? Student { get; set; }
     }
 }
