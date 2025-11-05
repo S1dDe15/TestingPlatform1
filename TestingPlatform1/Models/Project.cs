@@ -8,5 +8,6 @@
 
         public List<Group> Groups { get; set; }
 
+        public List<Test> Tests { get; set; }   
     }
 }
