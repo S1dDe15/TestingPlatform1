@@ -1,11 +1,11 @@
 ﻿namespace TestingPlatform1
 {
-    public class TestType
+    public enum TestType
     {
         Education = 1, 
-            
-        Activity = 2,
-            
+        
+        Activity = 2, 
+        
         Other = 3
     }
 }
