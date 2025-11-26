@@ -16,7 +16,7 @@ namespace TestingPlatform1.Models
         public int TestId { get; set; } 
         
         [Required]
-        public int StudfentId { get; set; } 
+        public int StudentId { get; set; } 
 
         public Test Test { get; set; } 
         public Student Student { get; set; } 
